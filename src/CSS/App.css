@@ -1,0 +1,89 @@
+.App{
+  width: 100%;
+  margin: 0 auto;
+
+
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+    width: 75%;
+  }
+   /* Medium Devices, Desktops */
+   @media only screen and (min-width : 992px) {
+    width: 50%;
+  }
+}
+
+
+.description{
+  font-family:Arial, Helvetica, sans-serif;
+  color:#808080;
+  display: block;
+  margin-bottom: 1.2em;
+}
+.count{
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.date{
+  font-family:Arial, Helvetica, sans-serif;
+  color:#808080;
+  display: block;
+  margin-bottom: 0.25em;
+  margin-top: 0.25em;
+}
+h1{
+ text-align: center;
+ color:indianred;
+}
+ul{
+  display: flex;
+  flex-direction:row;
+  list-style: none;
+  
+}
+@media only screen and (max-width : 768px) {
+  ul{flex-direction: column;}
+}
+ /* Medium Devices, Desktops */
+ @media only screen and (max-width : 992px) {
+  ul{flex-direction: column;}
+}
+li{
+  background-color:whitesmoke;
+  margin: 20px;
+  padding: 20px;
+}
+.infected{
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: rgba(54, 162, 235);
+}
+
+.recovered{
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: rgba(75, 230, 150);
+}
+
+.death{
+  border-width: 0px 0px 5px 0px;
+  border-style: solid;
+  border-color: rgba(255, 99, 132);
+}
+
+/* DropDown For Country Picker */
+.dropDown{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50% !important;
+  margin-right: auto !important;
+  text-align-last: center;
+  padding: 5px;
+  transform: translate(-50%, 0) !important;
+}
+
+.dropDown option{
+  text-align: center ;
+}
+
+
